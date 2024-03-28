@@ -1,0 +1,356 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+body {
+
+    background-image: url(../images/pexels-benjamin-suter-3617500\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+    margin: 0;
+    padding: 0;
+    
+   
+    
+}
+
+.contactform{
+
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    padding: 1rem;
+    
+}
+   
+    form {
+        padding: 1rem;
+        display: block;
+        margin: auto;
+        width: 30%;
+        height: 100%;
+        text-align: center;
+        color: white;
+    }
+.contactinformation {
+
+    text-align: center;
+    color: white;
+    bottom: 400px;
+    margin: auto;
+    width: 60%;
+    background: rgba(25, 54, 54, 0.818);;
+    padding: 1rem;
+    position: relative;
+    bottom:70%;
+    
+    
+}
+   
+
+    form .submitcontacts{
+
+        margin: auto;
+        background: white;
+        color: black;
+        border-radius: 3px;
+       
+       
+    }
+
+    form .submitcontacts:hover{
+
+        background-color: rgb(114, 152, 255);
+       
+    }
+
+    
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-family: "Abril Fatface", serif;
+    padding: 10px;
+  }
+
+  footer .fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+ 
+  footer .fa:hover {
+    opacity: 0.7;
+  }
+  
+ 
+  .fa-linkedin {
+    background: rgb(0, 123, 182);
+    color: white;
+  }
+
+nav ul li a {
+
+    color: rgb(0, 0, 0);
+    padding: 0;
+    font-family: "Abril Fatface", serif;
+
+
+}
+
+.nav-button,
+.download-button{
+background-color: white;
+padding: 5px;
+font-family: "Abril Fatface", serif;
+box-shadow: 2px 2px 3px rgb(0, 0, 0);
+
+
+
+}
+
+.nav-button:hover,
+.download-button:hover{
+
+background-color: rgb(114, 152, 255);
+
+}
+.aboutme a{
+    color: rgb(114, 152, 255);
+    font-family: "Lato", sans-serif;
+}
+
+
+header {
+    background: rgba(25, 54, 54, 0.791);
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    font-family: "Abril Fatface", serif;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    
+    
+
+
+
+}
+footer{
+    background: rgba(25, 54, 54, 0.818);
+    padding-top: 60px;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    
+    
+
+
+
+}
+
+.skills {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.skills.seen {
+    opacity: 1;
+    transform: none;
+}
+
+.skills{
+    background: rgba(25, 54, 54, 0.812);
+    
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+   
+    margin: auto;
+    width: 40%;
+    padding: 50px;
+}
+
+
+
+.aboutme{
+
+    background: rgba(25, 54, 54, 0.812);
+    
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+   
+    margin: auto;
+    width: 60%;
+    padding: 50px;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+ 
+   
+}
+
+@keyframes fadeInAnimation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.aboutme p{
+
+    text-align: center;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    color: white;
+}
+
+footer section{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skillsflex{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+main{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10vh;
+}
+
+.me img{
+
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 300PX;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+ 
+   
+}
+
+
+
+@media only screen and (max-width : 800px) {
+
+
+    form {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+        display: block;
+        margin: 0;
+        color: white;
+        width: 30%;
+        
+        
+    }
+
+    form .submitcontacts{
+
+        margin: auto;
+        background: white;
+        color: black;
+        border-radius: 3px;
+       
+       
+    }
+
+    .nav-button{
+    background-color: white;
+    font-size: 10px;
+    width: 50px;
+    height: 25px;
+    padding: 0;
+    
+    
+    }
+
+    
+
+    footer{
+
+        font-size: 10px;
+    }
+
+    footer .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+    .download-button{
+        background-color: white;
+        font-size: 10px;
+        width: 70px;
+        height: 35px; 
+        padding: 0;
+    }
+
+    .skillsflex{
+       font-size: 10px;
+    }
+
+    
+
+    nav ul {
+     
+        width: 80%;
+    
+    
+    }
+
+    .aboutme p{
+
+        font-size: 10px;
+    }
+    
+    
+    
+   
+    
+    }
+
+   
+      
+    
+    
+
+
