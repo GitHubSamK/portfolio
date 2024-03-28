@@ -18,6 +18,55 @@ body {
     
 }
 
+.specialsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10vh;
+    grid-row-gap: 10vh;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    width: 75%;
+    top: 50%;
+    font-family: "Lato", sans-serif;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#portfolio main a{
+
+    
+    color: rgb(114, 152, 255);
+}
+
+#portfolio h3{
+    text-align: center;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+#portfolio div div {
+    background: rgba(25, 54, 54, 0.818);
+    color: white;
+    box-shadow: 2px 2px 3px black;
+    padding: 4rem;
+
+
+}
+
+
 .contactform{
 
     margin: auto;
@@ -43,7 +92,7 @@ body {
     bottom: 400px;
     margin: auto;
     width: 60%;
-    background: rgba(25, 54, 54, 0.818);;
+    background: rgba(25, 54, 54, 0.818);
     padding: 1rem;
     position: relative;
     bottom:70%;
@@ -243,7 +292,7 @@ footer section{
     font-family: "Lato", sans-serif;
 }
 
-main{
+#aboutmepage main{
 
     padding-top: 50px;
     padding-bottom: 50px;
@@ -300,6 +349,32 @@ main{
     padding: 0;
     
     
+    }
+
+    .specialsgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 10vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 50px;
+        padding-top: 25px;
+    }
+
+
+
+
+
+    #Specials div div {
+        background-color: rgba(58, 151, 185, 0.038);
+        border: 1px solid #3A98B9;
+        color: #3A98B9;
+        box-shadow: 2px 2px 3px grey;
+        padding: 4rem;
+
+
     }
 
     
