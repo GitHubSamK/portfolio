@@ -8,3 +8,4 @@ const observer = new IntersectionObserver((appearance) => {
 }, { threshold: 0.5 }); 
 
 observer.observe(skillsSection);
+
