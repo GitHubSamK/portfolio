@@ -405,8 +405,8 @@ footer{
   .container{
 
     margin: auto;
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 800px;
     padding-top: 50px;
     padding-bottom: 50px;
     
@@ -414,7 +414,7 @@ footer{
   }
 
   .container img{
-    height: 500px;
+    height: 700px;
     margin: auto;
     display: block;
     object-fit: cover;
@@ -525,6 +525,12 @@ footer section{
         
     }
 
+    #aboutmepage img{
+
+        width: 200px;
+        height: 200px;
+    }
+
     form .submitcontacts{
 
         margin: auto;
@@ -571,6 +577,25 @@ footer section{
 
     }
 
+    .container{
+
+        margin: auto;
+        width: 300px;
+        height: 400px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+        background: rgba(25, 54, 54, 0.818);
+      }
+    
+      .container img{
+        height: 300px;
+        margin: auto;
+        display: block;
+        object-fit: cover;
+      
+      }
+
     
 
     footer{
@@ -596,6 +621,18 @@ footer section{
 
     .skillsflex{
        font-size: 10px;
+       
+    }
+
+    #animations article{
+
+        padding-bottom: 100px;
+    }
+
+    .skills {
+
+        margin: auto;
+        width: 100%;
     }
 
     
@@ -615,7 +652,7 @@ footer section{
     .animationgrid{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
         grid-column-gap: 10vh;
         grid-row-gap: 10vh;
         margin: auto;

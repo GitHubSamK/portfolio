@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>Sam's Media Player</header>
+    <main>
+
+        <video id="myVideo" width="420" height="340" controls>
+            <source src="videos/Courtney Barnett & Kurt Vile - _Over Everything_ Snippet.mp4" type="video/mp4">
+            <source src="videos/Courtney Barnett & Kurt Vile - _Over Everything_ Snippet.webm" type="video/webm">
+            <track src="captions/Courtney Barnett & Kurt Vile - _Over Everything_ Snippet.vtt" kind="captions"
+                srclang="en" label="English">
+            Your browser does not support the video tag.
+            <p> <a href="" download>Download the Video</a></p>
+        </video> <br/>
+
+        <div class="videobuttons">
+            <button id="btnPlay" class="control">Play</button><br />
+            <button id="btnPaws" class="control">Pause</button><br />
+            <button id="btnSlow" class="control">Slow Motion</button><br />
+            <button id="btnNorm" class="control">Normal Speed</button><br />
+            <button id="btnSeek" class="control">Seek</button><br />
+            <button id="btnLoad" class="control">Load New Media</button><br />
+            <button id="btnFF" class="control">Fast forward</button>
+
+        </div>
+
+        <div class ="markcapo">
+            <p>Place capo on 2nd fret</p>
+        </div>
+        <div class="chords">
+
+        </div>
+    </main>
+<script src="js/videohelpers.js"></script>
+    <script src="js/script.js" type="module"></script>
+</body>
+
+</html>

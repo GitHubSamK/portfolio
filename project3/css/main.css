@@ -1,0 +1,116 @@
+video{
+    margin: auto;
+    display: block;
+    
+    
+
+
+}
+body{
+
+    background-color: deepskyblue;
+}
+
+
+
+header{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.control{
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    
+
+
+
+}
+
+.markcapo p {
+
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: auto;
+    width: 25%;
+
+}
+
+.markcapo {
+
+    margin-top: 17px;
+   
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    animation: fade ease-in-out 1s;
+    padding-top: 40px;
+    
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+button{
+
+    padding: 5px;
+}
+
+
+
+.videobuttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 40%;
+   
+
+}
+
+@media screen and (max-width:720px) {
+
+    video {
+
+        margin: auto;
+        display: block;
+        width: 100%;
+        height: 200px;
+    }
+
+    img{
+        width: 100%;
+        height: 200px;
+        display: block;
+        margin: auto;
+        animation: fade ease-in-out 1s;
+        padding-top: 40px;
+        
+    }
+
+    .videobuttons{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin: auto;
+        width: 100%;
+       
+    
+    }
+}
