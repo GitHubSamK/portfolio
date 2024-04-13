@@ -90,7 +90,15 @@ video{
 
 
 
+.contact p{
+    padding-top: 20px;
+}
 
+.contactmain{
+    padding-top: 40px;
+    padding-bottom: 25px;
+
+}
    
 
 
@@ -212,13 +220,15 @@ nav{
     color: white;
     bottom: 400px;
     margin: auto;
-    width: 59%;
-    border-radius: 2%;
+    width: 58%; 
     background: rgba(25, 54, 54, 0.818);
     padding: 1rem;
     position: relative;
     bottom:70%;
+    
     font-family: "Lato", sans-serif;
+    box-shadow: 2px 2px 3px black;
+    
     
     
 }
@@ -228,6 +238,8 @@ nav{
 
     padding-bottom: 250px;
     padding-top: 100px;
+   
+
 }
 
     form .submitcontacts{
@@ -345,7 +357,7 @@ header {
     padding-top: 10px;
     
     padding-left: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
     margin: 0;
     font-family: "Abril Fatface", serif;
     box-shadow: 2px 2px 3px rgb(0, 0, 0);
@@ -484,10 +496,13 @@ label{
     
 }
 
+
+
 .containerform {
     border-radius: 5px;
     background-color: rgba(25, 54, 54, 0.818) ;
     padding: 20px;
+    box-shadow: 2px 2px 3px black;
     
     
 }
@@ -530,7 +545,7 @@ form{
 
     margin: auto;
     width: 700px;
-    height: 800px;
+    height: 900px;
     padding-top: 50px;
     padding-bottom: 50px;
     background: rgba(25, 54, 54, 0.818);
@@ -544,6 +559,11 @@ form{
   
   }
 
+  .container h3{
+    color: white;
+    font-family: "Lato", sans-serif;
+  }
+
   #photoshop main {
 
     padding: 100px;
@@ -554,7 +574,6 @@ form{
 .aboutme{
 
     background: rgba(25, 54, 54, 0.812);
-    
     box-shadow: 2px 2px 3px rgb(0, 0, 0);
    
     margin: auto;
@@ -611,12 +630,11 @@ footer section{
 
 #aboutmepage main{
 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 36px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 10vh;
+    grid-column-gap: 3vh;
 }
 
 .me img{
@@ -638,7 +656,7 @@ form{
     width: 100%;
 }
 .contactform{
-    width: 95%;
+    width: 100%;
 }
 
     .containerform {
@@ -660,16 +678,22 @@ form{
     nav li {
     
     font-size: 2.6vw;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    
   
     
     
     
     }
 
+
+
     nav{
         margin: auto;
+        
+        
+        
     }
 
     .specialsgrid {
@@ -753,13 +777,14 @@ form{
     .skills {
 
         margin: auto;
-        width: 100%;
+        width: 98%;
     }
 
 
     .contactinformation{
 
         width: 95%;
+        
     }
     
 
@@ -819,7 +844,7 @@ form{
 
     .aboutme{
 
-        width: 100%;
+        width: 98%;
     }
 
     .skillsflex {
