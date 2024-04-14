@@ -9,3 +9,4 @@ const observer = new IntersectionObserver((appearance) => {
 
 observer.observe(skillsSection);
 
+
