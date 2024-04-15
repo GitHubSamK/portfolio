@@ -884,8 +884,19 @@ form{
 
     .grid button{
 
-        width: 40%;
+        width: 50%;
     }
+
+.grid div div{
+
+    width: 100%;
+}
+
+.grid div{
+
+    width: 100%;
+}
+
 
 
 
