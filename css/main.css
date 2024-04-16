@@ -114,7 +114,7 @@ video{
     margin: auto;
     padding-bottom: 50px;
     padding-top: 100px;
-    width: 75%;
+    width: 85%;
     height: 100%;
     top: 50%;
     font-family: "Lato", sans-serif;
@@ -1041,9 +1041,8 @@ form{
         margin: auto;
         padding-bottom: 50px;
         padding-top: 100px;
-        width: 95%;
+        width: 100%;
         top: 50%;
-        
         animation: 1s ease-out 0s 1 slideInFromLeft;
         
     }
