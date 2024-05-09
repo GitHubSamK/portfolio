@@ -15,6 +15,26 @@
     
 }
 
+.uxmain{
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+
+}
+
+.uxlinks h3{
+    color:white;
+    font-family: "Lato", sans-serif; 
+}
+.uxlinks a{
+    color: white;
+}
+
+.uxlinks {
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 body {
@@ -82,6 +102,22 @@ nav{
  margin: auto;
 }
 
+.uxlinks button{
+    background-color:rgb(158, 184, 254);
+    font-family: "Lato", sans-serif;
+    margin: auto;
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.uxlinks a{
+    text-decoration: none;
+}
+
 .animationgrid h3{
     color: white;
     font-family: "Lato", sans-serif;
@@ -104,6 +140,8 @@ video{
     padding-bottom: 25px;
 
 }
+
+
    
 
 
@@ -123,7 +161,9 @@ video{
     font-family: "Lato", sans-serif;
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
-
+.contactp{
+    padding: 100px;
+}
 .grid a{
 
     text-decoration: none;
@@ -145,7 +185,7 @@ video{
     margin: auto;
     display: block;
     justify-content: center;
-    width: 40%;
+    width: 100%;
     padding: 5px;
     background-color: rgb(158, 184, 254);
 }
@@ -369,6 +409,8 @@ nav .fa:hover{
     
     background-color: rgb(158, 184, 254);
 }
+
+
 .aboutme {
     max-width: 1200px;
     margin: 0 auto;
@@ -887,7 +929,7 @@ form{
 
     .grid button{
 
-        width: 50%;
+        width: 100%;
     }
 
 .grid div div{
