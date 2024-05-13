@@ -679,15 +679,16 @@ form{
   .container{
 
     margin: auto;
-    width: 700px;
-    height: 900px;
+    width: 90%;
+    height: 90%;
     padding-top: 50px;
     padding-bottom: 50px;
     background: rgba(25, 54, 54, 0.818);
   }
 
   .container img{
-    height: 700px;
+    height: 100%;
+    width: 100%;
     margin: auto;
     display: block;
     object-fit: cover;
@@ -702,7 +703,8 @@ form{
 
   #photoshop main {
 
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
 
@@ -888,6 +890,7 @@ footer section{
     .aboutme button {
     
         width: 40%;
+        
     }
 
     
@@ -897,13 +900,16 @@ form{
 }
 .contactform{
     width: 100%;
+    
 }
+
 
     .containerform {
         border-radius: 5px;
         background-color: rgba(25, 54, 54, 0.818) ;
         padding: 20px;
         width: 100%;
+       
     }
     
 
@@ -955,6 +961,8 @@ form{
     nav{
         margin: auto;
         width:100%;
+        padding-left: 0px;
+        padding-right: 0px;
         
         
         
@@ -1004,6 +1012,7 @@ form{
         width: 100%;
         margin: auto;
         display: block;
+        justify-content: center;
         object-fit: cover;
       
       }
