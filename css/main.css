@@ -107,6 +107,7 @@ nav{
     font-family: "Lato", sans-serif;
     margin: auto;
     display: block;
+    width: 50%;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -162,7 +163,8 @@ video{
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 .contactp{
-    padding: 100px;
+    padding: 25px;
+    width:100%
 }
 .grid a{
 
@@ -458,6 +460,7 @@ nav .fa:hover{
     
     border: none;
     padding: 10px 20px;
+    width: 50%;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
@@ -889,8 +892,22 @@ footer section{
 
     .aboutme button {
     
-        width: 40%;
+        width: 100%;
         
+    }
+
+    .uxlinks button{
+        background-color:rgb(158, 184, 254);
+        font-family: "Lato", sans-serif;
+        margin: auto;
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
     }
 
     
@@ -923,9 +940,9 @@ form{
 
     nav li {
     
-    font-size: 12px;
-    padding-left: 2px;
-    padding-right: 2px;
+        font-size: 14px;
+        padding-left: 1.5px;
+        padding-right: 1.5px;
     
   
     
@@ -960,9 +977,7 @@ form{
 
     nav{
         margin: auto;
-        width:100%;
-        padding-left: 0px;
-        padding-right: 0px;
+        width: 100%;
         
         
         
@@ -1064,9 +1079,11 @@ form{
     }
     
 
-    nav ul{
+    nav{
      
         width: 100%;
+        padding-left:0px;
+        padding-right:0px;
     
     
     }
@@ -1143,6 +1160,8 @@ form{
    .aboutme p{
     font-size: 16px;
    }
+
+
 
 
    
