@@ -875,7 +875,7 @@ footer section{
    
         font-family: "Lato", sans-serif;
         color: white;
-        font-size: 13px;
+        font-size: 16px;
        
     }
 }
@@ -917,12 +917,19 @@ form{
 
     nav li {
     
-    font-size: 2.6vw;
-    padding-left: 3px;
-    padding-right: 3px;
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
     
   
     
+    
+    
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
     
     
     }
@@ -947,6 +954,7 @@ form{
 
     nav{
         margin: auto;
+        width:100%;
         
         
         
@@ -1004,7 +1012,7 @@ form{
 
     footer{
 
-        font-size: 14px;
+        font-size: 16px;
     }
 
     footer .fa {
@@ -1024,7 +1032,7 @@ form{
     }
 
     .skillsflex{
-       font-size: 10px;
+       font-size: 16px;
        
     }
 
@@ -1049,7 +1057,7 @@ form{
 
     nav ul{
      
-        width: 80%;
+        width: 100%;
     
     
     }
@@ -1058,7 +1066,7 @@ form{
 
     .aboutme p{
 
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .animationgrid{
@@ -1097,7 +1105,7 @@ form{
    
         font-family: "Lato", sans-serif;
         color: white;
-        font-size: 13px;
+        font-size: 16px;
        
     }
 
@@ -1117,14 +1125,14 @@ form{
     }
 
     .skillsflex {
-        font-size: 13px;
+        font-size: 16px;
 
     }
 
 
     
    .aboutme p{
-    font-size: 13px;
+    font-size: 16px;
    }
 
 
