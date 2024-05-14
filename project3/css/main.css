@@ -34,10 +34,14 @@ header{
 .markcapo p {
 
     text-align: center;
-    background-color: aliceblue;
-    border: 2px solid black;
     margin: auto;
-    width: 25%;
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    background-color:#FFFFFF;
+    border:none;
+    border-radius: 5px;
 
 }
 
@@ -54,6 +58,7 @@ img{
     margin: auto;
     animation: fade ease-in-out 1s;
     padding-top: 40px;
+    
     
 }
 
@@ -83,6 +88,21 @@ button{
    
 
 }
+.videobuttons {
+    
+    gap: 10px;
+}
+
+
+.control {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0074D9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 @media screen and (max-width:720px) {
 
@@ -104,10 +124,15 @@ button{
         
     }
 
+   
+
+    
+    
+
     .videobuttons{
         display: flex;
-        justify-content: center;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         margin: auto;
         width: 100%;
        
